@@ -1,3 +1,8 @@
 module.exports = {
-    important: true
+    important: true,
+    variants: {
+      extend: {
+        backgroundColor: ['active'],
+      }
+    },
   }
